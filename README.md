@@ -42,6 +42,18 @@ portphonix/
 - **pages/** : Pages supplémentaires comme "À propos" et "Contact".
 - **README.md** : Documentation du projet.
 
+## Design
+
+La création du design de l'application n'a pas été conçu par nous mais une maquette qu'on a trouvé sur [Behance](https://www.behance.net/)
+
+- **Newman Ezeibeli** - *UI/UX Designer | WordPress Developer | Graphics Designer* - [Profil behance](https://www.behance.net/Mehvish_Iql)
+- **Baaraku Website** - [Maquette de l'application](https://www.behance.net/gallery/164318969/Baaraku-Recruiting-Company-Website?fbclid=IwZXh0bgNhZW0CMTAAAR0swpwXuyrn-epi06HEpCR9is1gh4UHfy7mCiIKhJto2BRczI3GMDithvk_aem_AfZ22u9v5iqUBM6O2BYH7ty0PFDQ3nzC7yhKQodVGdrLgn6zjn4AZi17bI7O_iNcHv0VNRuFDHqy3P_B_FoQuPLo)
+
+Vous pouvez télecharger ici les images :
+
+- **Assets** - [Google Drive](https://drive.google.com/drive/folders/1ovsdnJ7aZ64DsoH7DNMIJtd5UXnZtWjw?usp=sharing)
+
+
 ## Installation
 
 Pour cloner et exécuter ce projet, vous aurez besoin de [Git](https://git-scm.com) et d'un navigateur web. Depuis votre ligne de commande :
