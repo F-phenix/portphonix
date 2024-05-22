@@ -53,14 +53,13 @@ Vous pouvez télecharger ici les images :
 
 - **Assets** - [Google Drive](https://drive.google.com/drive/folders/1ovsdnJ7aZ64DsoH7DNMIJtd5UXnZtWjw?usp=sharing)
 
-
 ## Installation
 
 Pour cloner et exécuter ce projet, vous aurez besoin de [Git](https://git-scm.com) et d'un navigateur web. Depuis votre ligne de commande :
 
 ```bash
 # Clonez ce dépôt
-git clone https://github.com/votre-utilisateur/portphonix.git
+git clone https://github.com/F-phenix/portphonix.git
 
 # Allez dans le répertoire du projet
 cd portphonix
