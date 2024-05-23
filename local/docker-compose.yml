@@ -1,0 +1,16 @@
+services:
+  portphonix:
+    build: ../
+    container_name: portphonix
+    platform: linux/amd64
+    volumes:
+      - ./portphonix/portphonix.conf:/etc/nginx/conf.d/default.conf
+      - ./portphonix/logs:/var/log/nginx
+    ports:
+      - "127.0.0.1:8087:80"
+    restart: on-failure
+    networks:
+      - phonix_network
+
+networks:
+  phonix_network:
