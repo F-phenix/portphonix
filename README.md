@@ -65,3 +65,21 @@ git clone https://github.com/F-phenix/portphonix.git
 cd portphonix
 
 # Ouvrez le fichier index.html dans votre navigateur
+```
+
+## Test local (Docker)
+
+  - Prérequis:
+    - [Docker engine](https://docs.docker.com/engine/install/)
+    - [Docker compose](https://docs.docker.com/compose/install/linux/)
+
+  Pour lancer le conteneur,
+
+  ```bash
+    $ ~ cd local && bash start.sh
+  ```
+
+  Pour arrêter le conteneur,
+  ```bash
+    $ ~ cd local && bash stop.sh
+  ```
