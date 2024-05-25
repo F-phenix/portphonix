@@ -1,0 +1,48 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    /* height: 100px; */
+    width: 100%;
+    z-index: 1000; 
+}
+
+
+.header-logo {
+    font-size: 24px;
+    color: #007bff; 
+    text-decoration: none;
+}
+
+
+.header-right {
+    display: flex;
+}
+
+.header-home-item,
+.header-apropos-item,
+.header-projets-item,
+.header-experience-item {
+    margin-left: 15px;
+    color: #fefcfb; 
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+/* .header-home-item:hover,
+.header-apropos-item:hover,
+.header-projets-item:hover,
+.header-experience-item:hover {
+    color: #007bff; 
+} */
