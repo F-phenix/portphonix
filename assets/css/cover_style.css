@@ -10,6 +10,7 @@
     font-size: 2rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
 .cover-text {
     position: relative;
     width: 100%;
@@ -49,47 +50,105 @@
 
 .cover-button {
     width: 150px;
-    /* height: 100px; */
+    margin-top: 20px;
     position: absolute;
     display: flex;
-     top: 85% ;
-     overflow: auto;
+    left: 40%;
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
-.cover-button-shape,.cover-button-text {
+.cover-button-shape, .cover-button-text {
     flex: 1;
 }
 
-.cover-button-shape{
-    position: absolute;
+.cover-button-shape {
+    position: relative;
     background-color: black;
-    bottom: 5px;
-    position: relative; 
-    width: 70px;
     margin: 20px auto;
-    
+    width: 70px;
 }
+
 .cover-button-shape-one {
     position: absolute;
     top: 0;
-    left: 10;
+    left: 10px;
     width: 50px;
     height: 2px;
     background-color: #fefcfb;
     z-index: 2;
-
 }
+
 .cover-button-shape-two {
     background-color: #eb8329;
     position: absolute;
     top: -20px;
-    width:  40px;
-    height:  35px;
+    width: 40px;
+    height: 35px;
     z-index: 1;
 }
-/* .cover-button-text {
-    width: 50px;
+
+/*responsive*/
+
+/* @media  (max-width: 18080px){
+    .cover-text-bigtitle {
+        font-size: 20rem; 
+    }
 } */
+
+@media (max-width: 1200px) {
+    .cover-text-bigtitle {
+        font-size: 15rem; 
+    }
+}
+
+@media (max-width: 992px) {
+    .cover-text-bigtitle {
+        font-size: 12rem;
+    }
+
+    .layer-two {
+        margin: 0 10%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .cover {
+        height: 60vh;
+    }
+
+    .cover-text-bigtitle {
+        font-size: 12rem;
+    }
+
+    .layer-two {
+        margin: 0 20%;
+    }
+
+    .cover-button {
+        width: 200px;
+    }
+
+    .cover-text-citation {
+        font-size: 1.2rem; 
+    }
+}
+
+@media (max-width: 576px) {
+    .cover {
+        height: 40vh; 
+    }
+    .cover-text-bigtitle {
+        font-size: 10rem;
+       
+    }
+    
+    .cover-button {
+        width: 150px; 
+    }
+
+    .cover-text-citation {
+        font-size: 1rem; 
+    }
+}
