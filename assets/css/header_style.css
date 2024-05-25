@@ -16,11 +16,12 @@
     z-index: 1000; 
 }
 
-
 .header-logo {
-    font-size: 24px;
-    color: #007bff; 
-    text-decoration: none;
+    width: 80px;
+    height: 40px;
+    background-image: url('/assets/images/phenix.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 
@@ -32,7 +33,9 @@
 .header-apropos-item,
 .header-projets-item,
 .header-experience-item {
-    margin-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
     color: #fefcfb; 
     font-size: 16px;
     font-weight: 700;
@@ -40,9 +43,13 @@
 }
 
 
-/* .header-home-item:hover,
+.header-home-item:hover,
 .header-apropos-item:hover,
 .header-projets-item:hover,
 .header-experience-item:hover {
-    color: #007bff; 
-} */
+    color: #fefcfb;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: #eb8329;
+}

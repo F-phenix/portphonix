@@ -1,4 +1,6 @@
-# F-Phenix Portfolio
+<div align="center">
+  <img src="assets/images/phenix.png" alt="logo"/>
+</div>
 
 Bienvenue sur le portfolio officiel de F-Phenix, un groupe d'étudiants passionnés par le développement web. Ce projet présente nos compétences, projets et réalisations.
 
@@ -69,17 +71,22 @@ cd portphonix
 
 ## Test local (Docker)
 
-  - Prérequis:
-    - [Docker engine](https://docs.docker.com/engine/install/)
-    - [Docker compose](https://docs.docker.com/compose/install/linux/)
+- Prérequis:
+  - [Docker engine](https://docs.docker.com/engine/install/)
+  - [Docker compose](https://docs.docker.com/compose/install/linux/)
 
   Pour lancer le conteneur,
 
   ```bash
-    $ ~ cd local && bash start.sh
+    ~ cd local && bash start.sh
   ```
 
   Pour arrêter le conteneur,
+
   ```bash
-    $ ~ cd local && bash stop.sh
+    ~ cd local && bash stop.sh
   ```
+
+## Previews
+
+<img src="preview_cover.png">
